@@ -1,0 +1,41 @@
+
+div{
+    background-color: black;
+    height: 171;
+    width: 1440;
+}
+
+
+/*.cadastro{
+    position: absolute;
+    color: #CE66FF;
+    top: 50%;
+    right: 55%;
+    padding: 10px;
+}*/
+
+h1{
+    color: #CE66FF;
+    
+    font-style: italic;
+}
+
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: left;
+}
+
+.ba{
+    background-color: #CE66FF;
+}
+
+input{
+    align-self:center ;
+}
+
+legend{
+    text-align: center;
+}

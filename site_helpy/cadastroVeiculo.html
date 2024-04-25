@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro do Veículo</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <div class="header">
+        <h1>HELPY SEGUROS</h1>
+    </div>
+
+    <h2>Cadastro do Veículo</h2>
+    <hr style="border: 1px solid black;">
+
+    <form action="Cadastrar" method="get" class="form">
+
+        <fieldset>
+            <legend>Dados do veículo</legend>
+    
+            <label for="idmodelo">Modelo: </label>
+            <input type="text" name="modelo" id="idmodelo" required><br>
+    
+            <label for="idano">Ano do veículo: </label>
+            <input type="text" name="ano" id="idano" required><br>
+
+            <label for="idplaca">Placa do veículo: </label>
+            <input type="text" name="placa" id="idplaca" required> <br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Tipo do Veículo</legend>
+
+            <input type="radio" name="Tipo" id="idcarro">
+            <label for="idcarro">Carro</label>
+
+            <input type="radio" name="Tipo" id="idmoto">
+            <label for="idmoto">Moto</label>
+
+            <input type="radio" name="Tipo" id="idcaminhão">
+            <label for="idcaminhão">Caminhão</label>
+        </fieldset>
+
+        <br>
+
+        <hr style="border: none; border-top: 1px solid black;">
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+    <div class="footer"></div>
+
+</body>
+</html>

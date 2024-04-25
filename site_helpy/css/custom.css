@@ -1,0 +1,18 @@
+body {
+    font-family: 'Inter';font-size: 22px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cadastro {
+    color: #CE66FF; 
+}
+.ba {
+    position: fixed;
+    bottom: 0;
+    background-color: #CE66FF; 
+    height: 50px; 
+    width: 100%;
+}
